@@ -28,3 +28,9 @@ test("Result should be less than 1600" , function(){
 test("There is no I in team" , function(){
     expect('team').not.toMatch(/I/gi)
 })
+
+// Check Arrays
+test("Admin Should be In Usernames" , () => {
+let usernames = ["Adam", "John", "Admin"]
+expect(usernames).toContain('Admin')
+})
