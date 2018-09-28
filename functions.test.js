@@ -14,3 +14,17 @@ test("User Should have firstName of Rohito" , function(){
         lastName: "Bhambhani"
     })
 })
+
+
+// Less Than
+test("Result should be less than 1600" , function(){
+    const val1 = 500;
+    const val2 = 800;
+    expect(val1 + val2 ).toBeLessThan(1600)
+})
+
+
+// Regex Test
+test("There is no I in team" , function(){
+    expect('team').not.toMatch(/I/gi)
+})
