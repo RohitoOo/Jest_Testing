@@ -37,10 +37,12 @@ expect(usernames).toContain('Admin')
 
 // Working with Async Data 
 
-test("User Fetched Name should be Leanne Graham", () => {
+// Needed To Work With Async Data : 
+// expect.assertions(1);
+// return
+
+test("User Fetched Name should be Leanne Graham", async () => {
     expect.assertions(1);
-    return functions.fetchUser()
-    .then(data => {
-        expect(data.name).toEqual('Leanne Graham')
-    })
+    const data = await functions.fetchUser()
+    expect(data.name).toEqual('Leanne Graham')
 })
