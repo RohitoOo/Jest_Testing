@@ -8,3 +8,8 @@ test("checkAnagram is Defined" , () => {
 test("Check if two Strings are Anagrams" , () => {
     expect(checkAnagram("book", "ookb#")).toBeTruthy()
 })
+
+
+test("Check if two Strings are Anagrams" , () => {
+    expect(checkAnagram("book", "ookb#")).toBeTruthy()
+})
