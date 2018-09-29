@@ -7,5 +7,5 @@ test("String is Defined" , () => {
 
 test("String must be reversed" , () => {
     
-    expect(reverseString('hellO')).toEqual('olleh')
+    expect(reverseString('hello')).toEqual('olleh')
 })
