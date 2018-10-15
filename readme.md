@@ -14,9 +14,8 @@ I am using **React, Jest & Enzyme** and **create-react-app CLI**.
 ![ScreenShot](screenShot.png)
 
 To run this app:
-* `cd unit_testing_react`
-* `git clone https://github.com/RohitoOo/Jest_Testing.git` - Clone this repo
-* `cd into_directory` - Access Root Directory
+* `git clone https://github.com/RohitoOo/Jest_Testing_React.git` - Clone this repo
+* `cd unit_testing_react` - Access Root Directory
 * `npm install` - Install Back End Dependencies
 * `npm run test` - Run Unit Test    
 * `npm start` - View Application
